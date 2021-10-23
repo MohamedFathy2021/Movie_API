@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000f2;
+}
+.itemlayer{
+    width: 300px;
+    background-color: aquamarine;
+      
+  
+    position: fixed;
+    top: 0;
+    left: -250px;
+    z-index: 1;
+}
+.itemcloum{
+    height: 100vh;
+    background-color:black
+}
+.ulitem ul{
+    list-style-type: none;
+}
+.ulitem li a{
+    padding-top: 500px;
+    color: white;
+    display: block;
+    opacity: 0;
+    text-decoration: none;
+}
+.ulitem li a:hover{
+    color: crimson;
+}
+.logolayer{
+    height: 100vh;
+    background-color: white;
+}
+.test{
+    height: 300px;;
+}
+.hoverdiv{
+    background-color: rgba(255,255,255,.7);
+    top: 120%;
+    width: 100%;
+    margin: auto;
+    transition: top 1s ;
+    
+}
+.parent:hover .hoverdiv{
+top: 0;
+}
+.layer{
+    border-radius: 10px;
+}
+.layer h2{
+    font-size: 2rem;
+    font-weight: 200 !important;
+    line-height: 1.2;
+}
+.alert{
+    display: none;
+}
+.form-control{
+    color: beige !important;
+}
+.ulitem{
+    height: 60%;
+    
+}
+.copy{
+    color: #999;
+  
+}
+.copy i{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.copy i:hover{
+    color: crimson;
+}
+.main p{
+    color: #000;
+font-weight:500;
+}
+.contacts h2{ 
+    color: white;
+}
+i{
+    cursor: pointer;
+}
+.check{
+    background-color: transparent !important;
+    color: crimson !important;
+}

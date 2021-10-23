@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="itemlayer" id="itemlayer">
+        <div class="container">
+            <div class="row">
+                <div class="itemcloum col-10 d-flex flex-column justify-content-between">
+                    <div class="ulitem overflow-hidden">
+                        <ul>
+                            <li class=" 1"><a class="getcertenmove" href="#main">Now playing </a></li>
+                            <li class=" 2"><a class="getcertenmove" href="#main">popular </a></li>
+                            <li class=" 3"><a class="getcertenmove" href="#main">TopRated </a></li>
+                            <li class="  4"><a class="getcertenmove" href="#main">trending </a></li>
+                            <li class="  5"><a class="getcertenmove" href="#main">Upcoming </a></li>
+                            <li class="  6"><a href="#contacts">Contact Us </a></li>
+                        </ul>
+                    </div>
+                    <div class="copy">
+
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fas fa-globe"></i>
+                        <p>Copyright Â© 2019 All Rights Reserved.</p><br>
+                    </div>
+                </div>
+                <div class="logolayer col-2  d-flex flex-column justify-content-between align-items-center">
+                    <div class="logo pt-3 ">
+                        <img src="img/logo (1).png" class="w-100" alt="logo">
+                    </div>
+                    <div class="closebutton">
+                        <i class=" toogle fa fa-align-justify fa-2x"></i>
+                    </div>
+                    <div class="social text-center">
+                        <i class="fas fa-globe"></i>
+                        <i class="fas fa-share-alt py-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container w-75 text-white mt-5">
+        <div class="row ">
+            <div class="col-md-6 bg-transparent ">
+                <input type="text"
+                    class=" apisearch form-control bg-transparent border-0 border-bottom text-center rounded-0"
+                    placeholder="Get Movies By KeyWord">
+            </div>
+            <div class="col-md-6">
+                <input type="text"
+                    class=" localsearch form-control bg-transparent border-0 border-bottom text-center rounded-0 "
+                    placeholder="search">
+            </div>
+        </div>
+    </div>
+    <div class="main my-5 text-center" id="main">
+        <div class="container w-75">
+            <div class="row content">
+
+
+            </div>
+        </div>
+    </div>
+    <div class="contacts" id="contacts">
+        <div class="container w-75  ">
+            <h2>ContacUs...</h2>
+            <div class="row text-center">
+                <div class="col-md-6  ">
+                    <input type="text"
+                        class=" name form-control bg-transparent border-0 border-bottom text-center rounded-0 mt-3"
+                        placeholder="EnterYourName">
+                    <div class="alert alert-danger  namealert" role="alert">
+                        Your Name is not valid
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="email"
+                        class=" email form-control bg-transparent border-0 border-bottom text-center rounded-0 mt-3"
+                        placeholder="Enter Email">
+                    <div class="  alert alert-danger  emailalert" role="alert">
+                        entre valid email
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="text"
+                        class=" phone form-control bg-transparent border-0 border-bottom text-center rounded-0 mt-3"
+                        placeholder="Enter phone">
+                    <div class="alert alert-danger phonealert " role="alert">
+                        entre valid phone
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <input type="tet"
+                        class=" age form-control bg-transparent border-0 border-bottom text-center rounded-0 mt-3"
+                        placeholder="Enter Age">
+                    <div class="alert alert-danger agealert" role="alert">
+                        entre valid Age
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <input type="password"
+                        class=" password form-control bg-transparent border-0 border-bottom text-center rounded-0 mt-3"
+                        placeholder="Enter Password">
+                    <div class="alert alert-danger passwordalert " role="alert">
+                        entre valid password *Minimum eight characters, at least one letter and one number:*
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="password"
+                        class=" repassword form-control bg-transparent border-0 border-bottom text-center rounded-0 mt-3"
+                        placeholder="Enter Repassword">
+                    <div class="alert alert-danger repasswordalert" role="alert">
+                        entre valid Repassword
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="valid" class=" check btn btn-danger my-3 disabled">submit</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
